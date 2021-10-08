@@ -34,7 +34,7 @@ send( GtkMenuItem *item, gpointer data) {
 				g_spawn_command_line_async(notify, NULL);
 					break;
 			case 5:
-				g_spawn_command_line_async("alacritty -e mocp", NULL);
+				g_spawn_command_line_async("st -e mocp", NULL);
 					break;
 		default:
 				break;
